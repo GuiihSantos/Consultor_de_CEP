@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Fascinate+Inline&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">    
+
+    <link rel="stylesheet" href="style.css">
+    <title>Gerador de cep</title>
+</head>
+<body>
+
+    <main class="container-principal">
+        <section class="geradorDeCEP">
+            <h1>Gerador de CEP</h1>
+            <button>Gerar CEP</button>
+        </section>
+
+        <section class="cepGerado">
+            <div>
+                <span>CEP:</span>
+                <div class="info">                        
+                    <span id="cep"></span>
+                    <span class="clipboard-copy">
+                        <img src="img/copySymbol.png" alt="simboloCopia" title="Copiar">
+                    </span>
+                </div>
+            </div>
+
+            <div>
+                <span>Endereço:</span>
+                <div class="info">
+                    <span id="endereco"></span>
+                    <span class="clipboard-copy">
+                        <img src="img/copySymbol.png" alt="simboloCopia" title="Copiar">
+                    </span>
+                </div>
+            </div>
+
+            <div>
+                <span>Bairro:</span>
+                <div class="info">
+                    <span id="bairro"></span>
+                    <span class="clipboard-copy">
+                        <img src="img/copySymbol.png" alt="simboloCopia" title="Copiar">
+                    </span>
+                </div>
+            </div>
+
+            <div>
+                <span>Cidade:</span>
+                <div class="info">
+                    <span id="cidade"></span>
+                    <span class="clipboard-copy">
+                        <img src="img/copySymbol.png" alt="simboloCopia" title="Copiar">
+                    </span>
+                </div>
+            </div>
+
+            <div>
+                <span>Estado:</span>
+                <div class="info">
+                    <span id="estado"></span>
+                    <span class="clipboard-copy">
+                        <img src="img/copySymbol.png" alt="simboloCopia" title="Copiar">
+                    </span>
+                </div>
+            </div>
+        </section>
+    </main>
+<!-- 
+    <footer>
+        <p>Criador: Guilherme Santos</p>
+    </footer> -->
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
