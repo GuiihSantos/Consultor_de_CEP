@@ -15,6 +15,14 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 
+.msgErro {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: red;
+    font-weight: 500;
+    display:none;
+}
+
 .container-principal {
     display: flex;
     width: 800px; 
@@ -37,6 +45,19 @@ body {
     margin-bottom: 1.5rem;
     text-transform: uppercase;
 }
+
+.geradorDeCEP input {
+    width: 60%;
+    height: 25px;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.geradorDeCEP input::placeholder{
+    padding: .5rem;
+   
+}
+
 
 .geradorDeCEP button {
     width: 200px;
@@ -101,17 +122,17 @@ body {
        align-items: center;
     }
 
-.geradorDeCEP {
-    margin-bottom: 1.5rem;
-}
+    .geradorDeCEP {
+        margin-bottom: 1.5rem;
+    }
 
-.geradorDeCEP h1 {
-    margin-bottom: .5rem;
-}
+    .geradorDeCEP h1 {
+        margin-bottom: .5rem;
+    }
 
-.cepGerado {
-    width: 350px;
-    margin: auto;
-}
+    .cepGerado {
+        width: 350px;
+        margin: auto;
+    }
 
 }

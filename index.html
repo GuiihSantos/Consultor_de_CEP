@@ -9,23 +9,25 @@
     <link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Fascinate+Inline&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">    
 
     <link rel="stylesheet" href="style.css">
-    <title>Gerador de cep</title>
+    <title>consultar cep</title>
 </head>
 <body>
 
     <main class="container-principal">
         <section class="geradorDeCEP">
-            <h1>Gerador de CEP</h1>
-            <button>Gerar CEP</button>
+            <h1>Consultar CEP</h1>
+            <p id="msgErro" class="msgErro"></p>
+            <input id="cepProcurado" type="text" placeholder="Digite o CEP">
+            <button id="buttonGerarCep">Gerar CEP</button>
         </section>
-
+      
         <section class="cepGerado">
             <div>
                 <span>CEP:</span>
                 <div class="info">                        
                     <span id="cep"></span>
                     <span class="clipboard-copy">
-                        <img src="img/copySymbol.png" alt="simboloCopia" title="Copiar">
+                        <img id="cepCopia" src="img/copySymbol.png" alt="simboloCopia" title="Copiar">
                     </span>
                 </div>
             </div>
@@ -35,7 +37,7 @@
                 <div class="info">
                     <span id="endereco"></span>
                     <span class="clipboard-copy">
-                        <img src="img/copySymbol.png" alt="simboloCopia" title="Copiar">
+                        <img id="enderecoCopia" src="img/copySymbol.png" alt="simboloCopia" title="Copiar">
                     </span>
                 </div>
             </div>
@@ -45,7 +47,7 @@
                 <div class="info">
                     <span id="bairro"></span>
                     <span class="clipboard-copy">
-                        <img src="img/copySymbol.png" alt="simboloCopia" title="Copiar">
+                        <img id="bairroCopia" src="img/copySymbol.png" alt="simboloCopia" title="Copiar">
                     </span>
                 </div>
             </div>
@@ -55,7 +57,7 @@
                 <div class="info">
                     <span id="cidade"></span>
                     <span class="clipboard-copy">
-                        <img src="img/copySymbol.png" alt="simboloCopia" title="Copiar">
+                        <img id="cidadeCopia" src="img/copySymbol.png" alt="simboloCopia" title="Copiar">
                     </span>
                 </div>
             </div>
@@ -65,7 +67,7 @@
                 <div class="info">
                     <span id="estado"></span>
                     <span class="clipboard-copy">
-                        <img src="img/copySymbol.png" alt="simboloCopia" title="Copiar">
+                        <img id="estadoCopia" src="img/copySymbol.png" alt="simboloCopia" title="Copiar">
                     </span>
                 </div>
             </div>
