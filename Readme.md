@@ -3,7 +3,7 @@
 Este projeto é um **consultor de CEP** , desenvolvido com **HTML, CSS e JavaScript puro**. A ferramenta permite que você insira um CEP para buscar e exibir automaticamente as informações de endereço correspondentes, como rua, bairro, cidade e estado. A aplicação faz uma requisição a uma API externa (`ViaCEP`) para buscar os dados.
 
 🔗 Acesse o projeto online:  
-https://guiihsantos.github.io/Gerador_De_Cep/
+https://guiihsantos.github.io/Consultor_de_CEP/
 
 ## Funcionalidades
 
@@ -26,20 +26,20 @@ Este projeto foi uma excelente oportunidade para aplicar e reforçar os seguinte
 - **Manipulação de `clipboard`**: Implementação da funcionalidade de copiar texto para a área de transferência do sistema.
 - **Modularização de Código**: O código é organizado em funções (`geraCep`, `preencheInfo`, `copiaInfo`) para facilitar a leitura e a manutenção.
 
-## 📦 Tecnologias usadas:
+## Tecnologias usadas:
 
 - ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 - ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 - ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
-## 📷 Imagens do projeto:
+## Imagens do projeto:
 
   <div  align="center"> 
-    <img src="https://github.com/user-attachments/assets/f0a9b9fc-ea94-46fc-96d5-8994e9d52417" width="50%"; margin="0 15px;">
-    <img src="https://github.com/user-attachments/assets/24990fec-e907-4acb-8a03-2185703da40c" width="50%"; margin="0 10px;">
-    <img src="" width="25%"; margin="0 10px;">
+    <img src="https://github.com/user-attachments/assets/f0a9b9fc-ea94-46fc-96d5-8994e9d52417" width="100%"; margin="0 15px;">
+    <img src="https://github.com/user-attachments/assets/24990fec-e907-4acb-8a03-2185703da40c" width="100%"; margin="0 10px;">
+    <img src="https://github.com/user-attachments/assets/a0a3565b-7cd4-4809-a625-b069521bb3c0" width="30%"; margin="0 10px;">
   </div>
 
-## 🪪 Licença
+## Licença
 
 Este projeto está licenciado sob a **Licença MIT**. Você pode usar, copiar, modificar e distribuir este código para fins educacionais e não comerciais, desde que a atribuição original seja mantida.
