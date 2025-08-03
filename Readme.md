@@ -3,7 +3,11 @@
 Este projeto é um **consultor de CEP** , desenvolvido com **HTML, CSS e JavaScript puro**. A ferramenta permite que você insira um CEP para buscar e exibir automaticamente as informações de endereço correspondentes, como rua, bairro, cidade e estado. A aplicação faz uma requisição a uma API externa (`ViaCEP`) para buscar os dados.
 
 🔗 Acesse o projeto online:  
+<<<<<<< HEAD
 https://guiihsantos.github.io/Consultor_de_CEP/
+=======
+ https://guiihsantos.github.io/Consultor_de_CEP/
+>>>>>>> 0247a93f7df400264655d604280ee1ce9e88b230
 
 ## Funcionalidades
 
