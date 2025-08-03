@@ -1,4 +1,17 @@
 const cepProcurado = document.getElementById("cepProcurado");
+const imgId = document.querySelectorAll(".clipboard-copy img");
+
+document.getElementById("buttonGerarCep").addEventListener("click", geraCep);
+document.addEventListener("keyup", geraCepEnter);
+imgId.forEach((el) => {
+  el.addEventListener("click", () => copiaInfo(el.id));
+});
+
+function geraCepEnter(e) {
+  if (e.key === "Enter") {
+    geraCep();
+  }
+}
 
 cepProcurado.oninput = () => {
   let value = cepProcurado.value.replace(/\D+/g, "");
@@ -6,8 +19,6 @@ cepProcurado.oninput = () => {
   value = value.replace(/^(\d{5})(\d{3})/, "$1-$2");
   cepProcurado.value = value;
 };
-
-document.getElementById("buttonGerarCep").addEventListener("click", geraCep);
 
 async function geraCep() {
   msgErro("");
